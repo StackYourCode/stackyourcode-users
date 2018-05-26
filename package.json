@@ -1,0 +1,28 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "SYC users",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StackYourCode/stackyourcode-users.git"
+  },
+  "author": "amoinier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StackYourCode/stackyourcode-users/issues"
+  },
+  "homepage": "https://github.com/StackYourCode/stackyourcode-users#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "graphql-date": "^1.0.3",
+    "mongoose": "^5.1.2"
+  }
+}
